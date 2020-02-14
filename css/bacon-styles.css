@@ -1,0 +1,42 @@
+h1{
+  color:red;
+  /* background-image: image("C:\Web development\HTML - Personal Site\images\20150303_100626.jpg"); */
+  background-image: repeating-radial-gradient(red, yellow 10%, green 15%);
+  /* background-image:
+      url("https://mdn.mozillademos.org/files/6457/mdn_logo_only_color.png"); */
+  background-color: transparent;
+  font-size: 100px;
+}
+div {
+  background-image:
+      url("https://mdn.mozillademos.org/files/6457/mdn_logo_only_color.png");
+}
+
+body{
+  /* background-image:url("images\20150303_100626.jpg"); */
+  background-image: image('images\20150303_100626.jpg');
+  background-color: transparent;
+}
+/* img{
+  animation-name: example;
+  animation-duration: 4s;
+  background-color: red;
+  transform: rotate3d(1, 1, 1, 45deg);
+
+} */
+.bacon{
+  background-color: green;
+}
+
+.watermelon{
+  background-color: red;
+}
+.circle{
+  border-radius: 100%;
+}
+
+/* The animation code */
+@keyframes example {
+  from {background-color: red;}
+  to {background-color: yellow;}
+}

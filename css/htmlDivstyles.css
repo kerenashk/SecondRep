@@ -1,0 +1,35 @@
+
+body{
+  margin: 0px;
+}
+
+h3{
+  margin-block-start: 0px;
+}
+.top1-div{
+  background-color: #66bfbf;
+  border-style: solid;
+  border-color: black;
+  border-width: 10px;
+  padding: 20px;
+  width:200px;
+  height: 200px;
+}
+
+
+.top-div{
+  background-color: red;
+  border-style: solid;
+  border-width: 20px;
+  margin-left: 260px;
+  width:200px;
+  height: 200px;
+}
+.middle-div{
+  border-style: solid;
+  border-width: 10px;
+  margin-left: 500px;
+  background-color: yellow;
+  width:200px;
+  height: 200px;
+}
