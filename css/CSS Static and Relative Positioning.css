@@ -1,0 +1,46 @@
+/* .red{
+  background-color: red;
+  width: 100px;
+  height: 100px;
+
+}
+.blue{
+  background-color: blue;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  left: 200px;
+  bottom:  100px;
+}
+.yellow{
+  background-color: yellow;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  left: 100px;
+  bottom:  200px;
+} */
+body{
+  margin: 0;
+}
+.red{
+  background-color: red;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 200px;
+  top: 200px;
+}
+.blue{
+  background-color: blue;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 100px;
+  top: 100px;
+}
+.yellow{
+  background-color: yellow;
+  width: 100px;
+  height: 100px;
+}
